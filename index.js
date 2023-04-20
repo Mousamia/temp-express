@@ -1,14 +1,22 @@
 const express = require('express')
+const  kijane = require('./data.json');
 const app = express()
-const port = 3000
+const port = 5000
 
 
-app.get('/', (req, res) =>{
-    res.send('segun kajth')
+// app.get('/', (req, res) =>{
+//     res.send('segun kajth')
+// })
+
+
+app.get('/kijane', (req, res) =>{
+    res.send(kijane);
 })
 
-app.get('/', (req,res) =>{
-    res.send("graju maju")
+app.get('/kijane/:id', (req, res) =>{
+    const id = parseInt(req.params.id);
+    // console.log(req.params);
+    console.log('I need  data  for', id);
 })
 
 app.listen(port, ()=>{

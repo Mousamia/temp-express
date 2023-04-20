@@ -1,0 +1,37 @@
+[
+  {
+    "id":1,
+    "picture": "http://placehold.it/32x32",
+    "name": "Andrea Rowe"
+  },
+  {
+    "id": 2,
+    "picture": "http://placehold.it/32x32",
+    "name": "Nicole Hughes"
+  },
+  {
+    "id": 3,
+    "picture": "http://placehold.it/32x32",
+    "name": "Alberta Harrell"
+  },
+  {
+    "id": 4,
+    "picture": "http://placehold.it/32x32",
+    "name": "Oliver Doyle"
+  },
+  {
+    "id": 5,
+    "picture": "http://placehold.it/32x32",
+    "name": "Carroll Hayes"
+  },
+  {
+    "id": 6,
+    "picture": "http://placehold.it/32x32",
+    "name": "Kristina Lambert"
+  },
+  {
+    "id": "6425a9c3d643c6751dfbe174",
+    "picture": "http://placehold.it/32x32",
+    "name": "Payne Baxter"
+  }
+]
